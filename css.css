@@ -1,0 +1,49 @@
+
+
+body {
+	margin: 0;
+}
+
+h1 {
+	background-color: black;
+	color: white;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 15px 0;
+	font-size: 60px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+section {
+	margin: 0 15px;
+	padding-top: 15px;
+}
+
+.photo {
+	margin-left: 75px;
+}
+
+.description {
+	padding-top: 65px;
+	width: 35rem;
+
+}
+
+.contact {
+	margin-right: 95px;
+}
+
+h2 {
+	color: #2F4F4F;
+	font-size: 24px;
+}
+
+p {
+
+}
