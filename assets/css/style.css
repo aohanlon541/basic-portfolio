@@ -1,6 +1,12 @@
+*{
+	box-sizing: border-box;
+
+}
+
 body {
 	width: 960px;
 	background-image: url("../../assets/images/background-image.png");
+	background-color: #fff;
 
 }
 
@@ -71,7 +77,15 @@ nav a:hover {
 .connectImages {
 	display: flex;
 	flex-direction: row;
+
 }
+
+/* WHY WON'T THIS WORK*/
+img.connectImages {
+	margin-left: 0;
+	padding-left: 0;
+}
+
 
 .mainBody, .connect {
 	background-color: #fff;
@@ -101,15 +115,17 @@ img {
 	margin: 10px;
 }
 
+/*The stacksoverflow won't size right*/
 img.logo {
-	width: 75px;
-	height: 75px;
+	width: 50px;
+	height: 50px;
 }
 
 img.main {
 	width: 200;
 	height: 200;
 }
+
 
 p {
 	padding: 8px;
