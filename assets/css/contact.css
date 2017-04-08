@@ -14,13 +14,13 @@ input {
 
 input {
 	font-size: 14px;
-
 }
 
 form {	
 	margin-right: 15px;
 }
 
+/*the text inside this is going to the middle?*/
 #messageBox {
-	height: 100px
+	height: 100px;
 }
