@@ -6,14 +6,16 @@ form p {
 	padding: 15px 0 0 0 ;
 }
 
-input {
+input, textarea {
 	width: 100%;
 	padding: 3px;
 	margin-right: 15px;
+	font-size: 14px;
 }
 
-input {
-	font-size: 14px;
+/*the border of this is different than the other form*/
+#textField {
+	border: #777 1px solid;
 }
 
 form {	
@@ -23,4 +25,17 @@ form {
 /*the text inside this is going to the middle?*/
 #messageBox {
 	height: 100px;
+}
+
+#submitButton {
+	background-color: #4aaaa5;
+	width: 25%;
+	color: #fff;
+	padding: 5px 15px;
+	margin-top: 10px;
+	border: none;
+}
+
+#submitButton:active {
+	border: #777 2px solid;
 }

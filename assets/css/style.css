@@ -7,13 +7,9 @@ body {
 	width: 960px;
 	background-image: url("../../assets/images/background-image.png");
 	background-color: #fff;
-
+	height: 100%;
 }
 
-
-h1, h2 {
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-}
 
 h2 {
 	color: #4aaaa5;
@@ -42,12 +38,6 @@ header {
 	flex-wrap: nowrap;
 }
 
-h1 {
-	background-color: #4aaaa5;
-	color: white;
-	padding: 20px 30px;
-	font-size: 30px;
-}
 
 nav {
 	margin: 15px 0 15px 200px;
@@ -63,6 +53,18 @@ nav a {
 
 nav a:hover {
 	font-weight: bold;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 20px 30px;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+h1, h2 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .main {
@@ -138,13 +140,14 @@ p {
 footer {
 	background-color: #666666;
 	border-top: #4aaaa5 5px solid;
-	color: 777777;
+	color: #777;
 	text-align: center;
 	position: absolute;
  	right: 0;
-  	bottom: 0;
+ 	bottom: 0;
   	left: 0;
 	padding: 20px;
+	width: 100%;
 }
 
 
