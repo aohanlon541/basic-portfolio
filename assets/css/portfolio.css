@@ -44,4 +44,5 @@ h3 {
 
 footer {
   position: relative;
+  min-width: 960px;
 }
