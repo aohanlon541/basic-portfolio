@@ -1,7 +1,9 @@
+/*light grey placeholder text*/
 input-placeholder {
 	color: lightgrey;
 }
 
+/*general form formatting*/
 form p {
 	padding: 15px 0 0 0 ;
 }
@@ -22,11 +24,7 @@ form {
 	margin-right: 15px;
 }
 
-/*the text inside this is going to the middle?*/
-#messageBox {
-	height: 100px;
-}
-
+/*Submit button*/
 #submitButton {
 	background-color: #4aaaa5;
 	width: 25%;

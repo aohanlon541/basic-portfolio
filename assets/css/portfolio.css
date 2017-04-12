@@ -1,3 +1,5 @@
+
+/*Each box on the broswer is an portfolio element*/
 #portfolioPhoto1 { 
   background-image: url('../../assets/images/portfolio-1.jpg');
 }
@@ -18,6 +20,7 @@
   background-image: url('../../assets/images/portfolio-5.jpg');
 }
 
+/* the div around each portfolio element*/
 .portfolio {
   margin: 12px;
   float: left;
@@ -29,7 +32,7 @@
   height: 200px;
  }
 
-
+/* the turquoise across each portfolio element*/
 h3 {
   margin: 125px 0 40px 0;
   background-color: #4aaaa5;
@@ -42,7 +45,8 @@ h3 {
 
 }
 
+/*for some reason when it's set to "absolute" 
+it rests in the middle of the page.*/
 footer {
   position: relative;
-  min-width: 960px;
 }

@@ -10,7 +10,7 @@ body {
 	height: 100%;
 }
 
-
+/*the blue area of the header*/
 h1 {
 	background-color: #4aaaa5;
 	color: white;
@@ -18,6 +18,7 @@ h1 {
 	font-size: 30px;
 }
 
+/*the font and color of headers and p*/
 h1, h2 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
@@ -31,6 +32,17 @@ p, a {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+h2 {
+	color: #2F4F4F;
+	font-size: 24px;
+}
+
+p {
+	padding: 8px;
+	line-height: 175%;
+}
+
+/*The white area of the header*/
 .top {
 	background-color: #fff;
 	border-bottom: #ccc 1px solid;
@@ -49,7 +61,7 @@ header {
 	flex-wrap: nowrap;
 }
 
-
+/* navigation formating*/
 nav {
 	margin: 15px 0 15px 200px;
 	padding-top: 15px;
@@ -66,7 +78,7 @@ nav a:hover {
 	font-weight: bold;
 }
 
-
+/* the body of the page */
 .main {
 	margin: auto;
 	display: flex;
@@ -76,53 +88,22 @@ nav a:hover {
 	margin-top: 75px;
 }
 
-.mainBody {
-	width: 650px;
-	margin: 30px 7.5px 30px 55px; 
-}
-
-.connectImages {
-	display: flex;
-	flex-direction: row;
-
-}
-
-/* WHY WON'T THIS WORK*/
-img.connectImages {
-	margin-left: 0;
-	padding-left: 0;
-}
-
-
 .mainBody, .connect {
 	background-color: #fff;
 	border: lightgrey 1px solid;
 	padding: 30px 20px;
 }
 
-
-.connect {
-	width: 270px;
-	margin: 30px 50px 30px 7.5px; 
-}
-
-
-h2 {
-	color: #2F4F4F;
-	font-size: 24px;
-}
-
-
+/*general image formatting*/
 img {
 	float: left;
 	margin: 5px;
 }
 
-/*The stacksoverflow won't size right*/
-img.logo {
-	width: 65px;
-	height: 65px;
-
+/* larger box formatting */
+.mainBody {
+	width: 650px;
+	margin: 30px 7.5px 30px 55px; 
 }
 
 img.main {
@@ -130,13 +111,28 @@ img.main {
 	height: 200;
 }
 
+/*smaller connect with me box*/
+.connect {
+	width: 270px;
+	margin: 30px 50px 30px 7.5px; 
+}
 
-p {
-	padding: 8px;
-	line-height: 175%;
+/*div around connect images*/
+.connectImages {
+	display: flex;
+	flex-direction: row;
+
+}
+
+img.logo {
+	margin-left: 0;
+	padding-left: 0;
+	width: 65px;
+	height: 65px;
 }
 
 
+/* blue box at bottom*/
 footer {
 	background-color: #666666;
 	border-top: #4aaaa5 5px solid;
